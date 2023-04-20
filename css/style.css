@@ -33,3 +33,30 @@
 .wrap {
     flex-wrap: wrap;
 }
+
+/* Background Properties */
+.bg-skyblue {
+    background-color: #0084fd;
+}
+
+/* Text Properties */
+.txt-white {
+    color: white;
+}
+
+/* Element Properties */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+header > nav {
+    padding: 1rem 2rem 1.5rem;
+}
+
+header > nav > ul {
+    display: none;
+}
