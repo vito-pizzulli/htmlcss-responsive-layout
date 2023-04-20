@@ -68,6 +68,15 @@
     text-align: center;
 }
 
+/* Border Properties */
+.b-radius-50 {
+    border-radius: 50%;
+}
+
+.no-border {
+    border: none;
+}
+
 /* Margin Properties */
 .mar-0auto {
     margin: 0 auto;
@@ -86,12 +95,24 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+button {
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 li {
     list-style-type: none;
+    cursor: pointer;
 }
 
 header > nav {
     padding: 1rem 2rem 1.5rem;
+}
+
+header img,
+header i {
+    cursor: pointer;
 }
 
 header ul {
@@ -99,7 +120,7 @@ header ul {
 }
 
 header li {
-    padding: .5rem;
+    margin: 0 1rem;
 }
 
 .element-box {
@@ -205,6 +226,7 @@ footer > nav {
 
     header ul {
         display: flex;
+        align-items: center;
     }
 
     header > nav,
