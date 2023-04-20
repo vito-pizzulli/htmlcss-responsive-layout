@@ -73,11 +73,6 @@
     margin-bottom: 2rem;
 }
 
-/* Padding Properties */
-.pad-point5rem {
-    padding: .5rem;
-}
-
 /* Element Properties */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -95,6 +90,10 @@ header ul {
     display: none;
 }
 
+header li {
+    padding: .5rem;
+}
+
 .element-box {
     border-radius: 30px;
     width: 100%;
@@ -108,6 +107,14 @@ header ul {
     padding: 2rem 2rem 3rem;
 }
 
+.images-section .container {
+    padding: 4rem 2rem 2rem;
+}
+
+.about-us-section .container {
+    padding: 4rem 2rem 4rem;
+}
+
 .features-section .element-box.small-box {
     height: 350px;
 }
@@ -116,13 +123,13 @@ header ul {
     height: 600px;
 }
 
-.images-section .container {
-    padding: 4rem 2rem 2rem;
-}
-
 .images-section img,
 .testimonials-section img {
     width: 100%;
+}
+
+.about-us-section img {
+    width: 50%;
 }
 
 .benefits-section .element-box {
@@ -130,7 +137,7 @@ header ul {
 }
 
 /* Responsive Layout */
-/* Tablet Responsive (from 480px to 768px) */
+/* Tablet Layout (from 480px to 768px) */
 @media screen and (min-width: 480px) {
     .features-section .element-box.small-box {
         width: calc(100% / 3 - 1.5rem);
@@ -161,9 +168,18 @@ header ul {
         width: calc(50% - 2rem);
         margin: 1rem;
     }
+
+    .about-us-section .left-column {
+        width: calc(60% - 2rem);
+        margin-right: 2rem;
+    }
+
+    .about-us-section .right-column {
+        width: 40%;
+    }
 }
 
-/* Desktop Responsive (from 768px and higher) */
+/* Desktop Layout (from 768px to higher resolutions) */
 @media screen and (min-width: 768px) {
     header .fa-bars {
         display: none;
