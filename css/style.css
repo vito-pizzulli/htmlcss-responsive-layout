@@ -107,6 +107,10 @@
     padding: 2rem 2rem 0;
 }
 
+.pad-2-0-0-2rem {
+    padding: 2rem 0 0 2rem;
+}
+
 .pad-1rem {
     padding: 1rem;
 }
@@ -267,6 +271,7 @@ footer > nav {
     .features-section .right-column {
         display: flex;
         justify-content: center;
+        padding: 1.5rem 1.5rem 0;
     }
 
     .images-section .container,
