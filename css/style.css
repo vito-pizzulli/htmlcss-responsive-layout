@@ -55,9 +55,17 @@
     background-color: #9792e4;
 }
 
+.bg-darkgrey {
+    background-color: #333333;
+}
+
 /* Text Properties */
 .txt-white {
     color: white;
+}
+
+.txt-align-c {
+    text-align: center;
 }
 
 /* Margin Properties */
@@ -101,9 +109,7 @@ header li {
     margin: 1rem 0;
 }
 
-.features-section .container,
-.testimonials-section .container,
-.benefits-section .container {
+.container {
     padding: 2rem 2rem 3rem;
 }
 
@@ -134,6 +140,10 @@ header li {
 
 .benefits-section .element-box {
     aspect-ratio: 1;
+}
+
+footer > nav {
+    padding: 2rem 1rem;
 }
 
 /* Responsive Layout */
@@ -177,6 +187,14 @@ header li {
     .about-us-section .right-column {
         width: 40%;
     }
+
+    .get-started-section .container {
+        padding: 2rem 4rem 2rem;
+    }
+
+    footer > nav {
+        width: 60%;
+    }
 }
 
 /* Desktop Layout (from 768px to higher resolutions) */
@@ -195,7 +213,8 @@ header li {
         margin: 0 auto;
     }
 
-    .images-section .container {
+    .images-section .container,
+    .get-started-section .container {
         width: 50%;
     }
 
@@ -210,5 +229,9 @@ header li {
 
     .benefits-section .element-box {
         width: calc((100% / 3) - 2rem);
+    }
+
+    footer > nav {
+        width: 40%;
     }
 }
