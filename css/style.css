@@ -44,6 +44,16 @@
     color: white;
 }
 
+/* Margin Properties */
+margin-0auto {
+    margin: 0 auto;
+}
+
+/* Padding Properties */
+.pad-point5rem {
+    padding: .5rem;
+}
+
 /* Element Properties */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -57,6 +67,29 @@ header > nav {
     padding: 1rem 2rem 1.5rem;
 }
 
-header > nav > ul {
+header ul {
     display: none;
+}
+
+/* Responsive Layout */
+/* Tablet Responsive (from 480px to 768px) */
+@media screen and (min-width: 480px) {
+    header .fa-bars {
+        display: none;
+    }
+
+    header ul {
+        display: flex;
+    }
+
+    header > nav {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Desktop Responsive (from 768px higher) */
+@media screen and (min-width: 768px) {
+    
 }
