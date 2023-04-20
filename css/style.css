@@ -103,7 +103,8 @@ header ul {
 }
 
 .features-section .container,
-.testimonials-section .container {
+.testimonials-section .container,
+.benefits-section .container {
     padding: 2rem 2rem 3rem;
 }
 
@@ -122,6 +123,10 @@ header ul {
 .images-section img,
 .testimonials-section img {
     width: 100%;
+}
+
+.benefits-section .element-box {
+    aspect-ratio: 1;
 }
 
 /* Responsive Layout */
@@ -146,6 +151,16 @@ header ul {
     .testimonials-section .element-box {
         display: flex;
     }
+
+    .benefits-section h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .benefits-section .element-box {
+        width: calc(50% - 2rem);
+        margin: 1rem;
+    }
 }
 
 /* Desktop Responsive (from 768px and higher) */
@@ -164,17 +179,20 @@ header ul {
         margin: 0 auto;
     }
 
+    .images-section .container {
+        width: 50%;
+    }
+
     .features-section .element-box.big-box,
     .features-section .element-box.small-box:nth-of-type(2) {
         height: 350px;
     }
 
-    
-    .images-section .container {
-        width: 50%;
-    }
-
     .images-section .column {
         width: 40%;
+    }
+
+    .benefits-section .element-box {
+        width: calc((100% / 3) - 2rem);
     }
 }
