@@ -273,7 +273,7 @@ header li {
 }
 
 .features-section img,
-.images-section img,
+.planning-section img,
 .testimonials-section img,
 .about-us-section img {
     width: 100%;
@@ -294,15 +294,15 @@ header li {
     font-size: 70px;
 }
 
-.images-section .container {
+.planning-section .container {
     padding: 4rem 2rem 2rem;
 }
 
-.images-section .element-box {
+.planning-section .element-box {
     border-radius: 50px;
 }
 
-.images-section i {
+.planning-section i {
     font-size: 15px;
     padding: 1rem;
 }
@@ -489,16 +489,16 @@ footer > nav {
         max-width: 500px;
     }
 
-    .images-section .container,
+    .planning-section .container,
     .get-started-section .container {
         width: 50%;
     }
 
-    .images-section .column {
+    .planning-section .column {
         width: calc(50% - 2rem);
     }
 
-    .images-section .column.right-column img {
+    .planning-section .column.right-column img {
         width: 70%;
     }
 
