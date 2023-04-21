@@ -278,91 +278,91 @@ header li {
     border-radius: 50%;
 }
 
-.features-section img,
-.planning-section img,
-.testimonials-section img,
-.about-us-section img {
+#features-section img,
+#planning-section img,
+#testimonials-section img,
+#about-us-section img {
     width: 100%;
 }
 
-.features-section img {
+#features-section img {
     padding: 0 1.5rem;
     display: block;
     align-self: flex-end;
 }
 
-.features-section .left-column {
+#features-section .left-column {
     padding: 2rem 2rem 0;
 }
 
-.features-section .element-box.small-box i {
+#features-section .element-box.small-box i {
     font-size: 70px;
 }
 
-.planning-section .container {
+#planning-section .container {
     padding: 4rem 2rem 2rem;
 }
 
-.planning-section .element-box {
+#planning-section .element-box {
     border-radius: 50px;
 }
 
-.planning-section i {
+#planning-section i {
     font-size: 15px;
     padding: 1rem;
 }
 
-.testimonials-section .container {
+#testimonials-section .container {
     padding: 4rem 2rem;
 }
 
-.testimonials-section .element-box {
+#testimonials-section .element-box {
     padding: 1rem;
     border-radius: 50px;
 }
 
-.testimonials-section .element-box p > span {
+#testimonials-section .element-box p > span {
     font-size: 40px;
     vertical-align: middle;
 }
 
-.benefits-section .container {
+#benefits-section .container {
     padding: 3rem 2rem;
 }
 
-.benefits-section h2 {
+#benefits-section h2 {
     width: 100%;
     text-align: center;
 }
 
-.benefits-section .element-box {
+#benefits-section .element-box {
     aspect-ratio: 1;
 }
 
-.about-us-section .container {
+#about-us-section .container {
     padding: 4rem 2rem 4rem;
 }
 
-.about-us-section .img-container {
+#about-us-section .img-container {
     width: 50%;
 }
 
-.about-us-section .img-container span {
+#about-us-section .img-container span {
     font-size: 130px;
     bottom: 30%;
     right: 0;
 }
 
-.get-started-section span.txt-underline,
+#get-started-section span.txt-underline,
 footer span.txt-underline {
     cursor: pointer;
 }
 
-.get-started-section p {
+#get-started-section p {
     line-height: 25px;
 }
 
-.get-started-section button {
+#get-started-section button {
     padding: 1.5rem 7rem;
     border-radius: 100px;
     font-size: 1.2rem;
@@ -375,88 +375,88 @@ footer > nav {
 /* Responsive Layout */
 /* Tablet Layout (from 480px to 768px) */
 @media screen and (min-width: 480px) {
-    .features-section .container {
+    #features-section .container {
         padding: 2rem .5rem 3rem;
     }
     
-    .features-section .element-box.small-box {
+    #features-section .element-box.small-box {
         width: calc(100% / 3 - 1.5rem);
     }
 
-    .features-section .element-box.big-box {
+    #features-section .element-box.big-box {
         width: calc((100% / 3) * 2 - 1rem);
     }
 
-    .features-section .element-box {
+    #features-section .element-box {
         margin: .5rem;
     }
 
-    .features-section .right-column {
+    #features-section .right-column {
         display: flex;
     }
 
-    .features-section h2 {
+    #features-section h2 {
         font-size: 1.5rem;
     }
 
-    .features-section img {
+    #features-section img {
         width: 70%;
     }
 
-    .planning-section h2 {
+    #planning-section h2 {
         font-size: 3rem;
     }
 
-    .testimonials-section .element-box {
+    #testimonials-section .element-box {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    .testimonials-section .right-column {
+    #testimonials-section .right-column {
         justify-content: flex-start;
     }
 
-    .testimonials-section .left-column {
+    #testimonials-section .left-column {
         width: 30%;
     }
 
-    .testimonials-section .right-column {
+    #testimonials-section .right-column {
         width: 70%;
     }
 
-    .benefits-section .container {
+    #benefits-section .container {
         padding: 3rem .5rem;
     }
 
-    .benefits-section .element-box {
+    #benefits-section .element-box {
         width: calc(50% - 2rem);
         margin: .5rem;
     }
 
-    .benefits-section .element-box span,
-    .benefits-section .element-box h3 {
+    #benefits-section .element-box span,
+    #benefits-section .element-box h3 {
         margin-bottom: .5rem;
     }
 
-    .about-us-section .left-column {
+    #about-us-section .left-column {
         width: calc(60% - 2rem);
         margin-right: 2rem;
     }
 
-    .about-us-section .right-column {
+    #about-us-section .right-column {
         width: 40%;
     }
 
-    .about-us-section .img-container span {
+    #about-us-section .img-container span {
         font-size: 100px;
     }
 
-    .get-started-section .container {
+    #get-started-section .container {
         padding: 2rem 4rem 2rem;
     }
 
-    .get-started-section button {
+    #get-started-section button {
         padding: 1.5rem 4rem;
         border-radius: 100px;
     }
@@ -484,46 +484,46 @@ footer > nav {
         margin: 0 auto;
     }
 
-    .features-section .left-column,
-    .features-section .right-column {
+    #features-section .left-column,
+    #features-section .right-column {
         width: 50%;
     }
 
-    .features-section .left-column {
+    #features-section .left-column {
         padding: 2rem 0 0 2rem;
     }
 
-    .features-section .right-column {
+    #features-section .right-column {
         justify-content: center;
         padding: 1.5rem 0 0;
     }
 
-    .features-section img {
+    #features-section img {
         width: 100%;
     }
 
-    .planning-section .container,
-    .get-started-section .container {
+    #planning-section .container,
+    #get-started-section .container {
         width: 50%;
     }
 
-    .planning-section .column {
+    #planning-section .column {
         width: calc(50% - 2rem);
     }
 
-    .planning-section .column.right-column img {
+    #planning-section .column.right-column img {
         width: 70%;
     }
 
-    .testimonials-section img {
+    #testimonials-section img {
         padding: 2rem;
     }
 
-    .benefits-section .element-box {
+    #benefits-section .element-box {
         width: calc((100% / 3) - 2rem);
     }
 
-    .about-us-section .img-container span {
+    #about-us-section .img-container span {
         font-size: 120px;
     }
 
