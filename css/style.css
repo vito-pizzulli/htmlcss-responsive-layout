@@ -274,8 +274,10 @@ header li {
 
 .features-section img,
 .images-section img,
-.testimonials-section img {
+.testimonials-section img,
+.about-us-section img {
     width: 100%;
+    max-width: 300px;
 }
 
 .features-section img {
@@ -337,10 +339,7 @@ header li {
 
 .about-us-section .img-container {
     width: 50%;
-}
-
-.about-us-section .img-container img {
-    width: 100%;
+    max-width: 300px;
 }
 
 .about-us-section .img-container span {
