@@ -382,7 +382,7 @@ footer > nav {
 }
 
 /* Responsive Layout */
-/* Tablet Layout (from 480px to 1024px) */
+/* Tablet Layout (from 480px to 992px) */
 @media screen and (min-width: 480px) {
     #features-section .container {
         padding: 2rem .5rem 3rem;
@@ -476,8 +476,8 @@ footer > nav {
     }
 }
 
-/* Desktop Layout (from 1024px to higher resolutions) */
-@media screen and (min-width: 1024px) {
+/* Desktop Layout (from 992px to higher resolutions) */
+@media screen and (min-width: 992px) {
     img {
         max-width: 300px;
     }
