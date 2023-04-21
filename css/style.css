@@ -88,6 +88,10 @@
     color: #fdc15f;
 }
 
+.txt-black {
+    color: black;
+}
+
 .txt-bold {
     font-weight: bold;
 }
@@ -215,6 +219,10 @@
 }
 
 /* Element Properties */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -259,6 +267,11 @@ header ul {
 
 header li {
     margin: 0 1rem;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
 }
 
 .element-box {
