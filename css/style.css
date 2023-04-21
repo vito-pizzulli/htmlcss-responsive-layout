@@ -76,8 +76,16 @@
     color: #5a6e7f;
 }
 
+.txt-lightgrey {
+    color: lightgrey;
+}
+
 .txt-violet {
     color: #9792e4;
+}
+
+.txt-yellow {
+    color: #fdc15f;
 }
 
 .txt-bold {
@@ -90,6 +98,14 @@
 
 .txt-uppercase {
     text-transform: uppercase;
+}
+
+.txt-underline {
+    text-decoration: underline;
+}
+
+.f-size-3rem {
+    font-size: 3em;
 }
 
 .f-size-2point5rem {
@@ -333,6 +349,20 @@ header li {
     right: 0;
 }
 
+.get-started-section span.txt-underline {
+    cursor: pointer;
+}
+
+.get-started-section p {
+    line-height: 25px;
+}
+
+.get-started-section button {
+    padding: 1.5rem 7rem;
+    border-radius: 100px;
+    font-size: 1.2rem;
+}
+
 footer > nav {
     padding: 2rem 1rem;
 }
@@ -411,6 +441,11 @@ footer > nav {
 
     .get-started-section .container {
         padding: 2rem 4rem 2rem;
+    }
+
+    .get-started-section button {
+        padding: 1.5rem 4rem;
+        border-radius: 100px;
     }
 
     footer > nav {
