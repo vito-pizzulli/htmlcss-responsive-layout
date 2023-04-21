@@ -80,6 +80,18 @@
     font-weight: bold;
 }
 
+.txt-italic {
+    font-style: italic;
+}
+
+.f-size-1point8rem {
+    font-size: 1.8rem;
+}
+
+.f-size-1point5rem {
+    font-size: 1.5rem;
+}
+
 /* Border Properties */
 .b-radius-50 {
     border-radius: 50%;
@@ -100,6 +112,10 @@
 
 .mar-bot-1rem {
     margin-bottom: 2rem;
+}
+
+.mar-bot-point5rem {
+    margin-bottom: .5rem;
 }
 
 /* Padding Properties */
@@ -135,6 +151,10 @@ li {
     cursor: pointer;
 }
 
+p {
+    line-height: 30px;
+}
+
 header > nav {
     padding: 1rem 2rem 1.5rem;
 }
@@ -162,6 +182,12 @@ header li {
     padding: 2rem 2rem 3rem;
 }
 
+.circle {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
 .features-section img,
 .images-section img,
 .testimonials-section img {
@@ -184,6 +210,15 @@ header li {
 
 .images-section .container {
     padding: 4rem 2rem 2rem;
+}
+
+.images-section .element-box {
+    border-radius: 50px;
+}
+
+.images-section i {
+    font-size: 15px;
+    padding: 1rem;
 }
 
 .about-us-section .container {
@@ -303,7 +338,11 @@ footer > nav {
     }
 
     .images-section .column {
-        width: 40%;
+        width: calc(50% - 2rem);
+    }
+
+    .images-section .column.right-column img {
+        width: 70%;
     }
 
     .benefits-section .element-box {
