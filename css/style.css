@@ -159,13 +159,18 @@
     padding: .5rem 3rem;
 }
 
+.pad-2-2-0rem {
+    padding: 2rem 2rem 0;
+}
+
+.pad-0-1-1rem {
+    padding: 0 1rem 1rem;
+}
+
 .pad-0-2-2rem {
     padding: 0 2rem 2rem;
 }
 
-.pad-2-2-0rem {
-    padding: 2rem 2rem 0;
-}
 
 /* Display Properties */
 .inline-block {
@@ -264,8 +269,7 @@ header li {
 }
 
 .testimonials-section .element-box {
-    padding: 0 1rem;
-    text-align: center;
+    padding: 1rem;
 }
 
 .testimonials-section .element-box p > span {
@@ -322,6 +326,10 @@ footer > nav {
         align-items: center;
     }
 
+    .testimonials-section .right-column {
+        justify-content: flex-start;
+    }
+
     .testimonials-section .left-column {
         width: 30%;
     }
@@ -329,11 +337,6 @@ footer > nav {
     .testimonials-section .right-column {
         width: 70%;
     }
-
-    .testimonials-section p + span {
-        text-align: start;
-    }
-
 
     .benefits-section h2 {
         width: 100%;
@@ -419,4 +422,3 @@ footer > nav {
     footer > nav {
         width: 40%;
     }
-}
