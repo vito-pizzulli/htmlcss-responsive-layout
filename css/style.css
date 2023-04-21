@@ -353,7 +353,7 @@ header a {
 }
 
 #about-us-section .img-container {
-    width: 50%;
+    width: 200px;
 }
 
 #about-us-section .img-container span {
@@ -540,10 +540,6 @@ footer > nav {
 
     #about-us-section .img-container span {
         font-size: 120px;
-    }
-
-    #about-us-section .img-container {
-        width: 50%;
     }
 
     footer > nav {
