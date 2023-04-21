@@ -349,7 +349,8 @@ header li {
     right: 0;
 }
 
-.get-started-section span.txt-underline {
+.get-started-section span.txt-underline,
+footer span.txt-underline {
     cursor: pointer;
 }
 
