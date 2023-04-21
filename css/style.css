@@ -92,6 +92,10 @@
     text-transform: uppercase;
 }
 
+.f-size-2point5rem {
+    font-size: 2.5rem;
+}
+
 .f-size-1point8rem {
     font-size: 1.8rem;
 }
@@ -171,6 +175,10 @@
     padding: 0 2rem 2rem;
 }
 
+/* Width Properties */
+    .w-100 {
+        width: 100%;
+    }
 
 /* Display Properties */
 .inline-block {
@@ -191,6 +199,10 @@ button {
 li {
     list-style-type: none;
     cursor: pointer;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 p {
@@ -277,16 +289,25 @@ header li {
     vertical-align: middle;
 }
 
+.benefits-section .container {
+    padding: 3rem 2rem;
+}
+
+.benefits-section h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.benefits-section .element-box {
+    aspect-ratio: 1;
+}
+
 .about-us-section .container {
     padding: 4rem 2rem 4rem;
 }
 
 .about-us-section img {
     width: 50%;
-}
-
-.benefits-section .element-box {
-    aspect-ratio: 1;
 }
 
 footer > nav {
@@ -338,14 +359,18 @@ footer > nav {
         width: 70%;
     }
 
-    .benefits-section h2 {
-        width: 100%;
-        text-align: center;
+    .benefits-section .container {
+        padding: 3rem .5rem;
     }
 
     .benefits-section .element-box {
         width: calc(50% - 2rem);
-        margin: 1rem;
+        margin: .5rem;
+    }
+
+    .benefits-section .element-box span,
+    .benefits-section .element-box h3 {
+        margin-bottom: .5rem;
     }
 
     .about-us-section .left-column {
@@ -413,6 +438,10 @@ footer > nav {
 
     .images-section .column.right-column img {
         width: 70%;
+    }
+
+    .testimonials-section img {
+        padding: 2rem;
     }
 
     .benefits-section .element-box {
