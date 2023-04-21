@@ -73,7 +73,7 @@
 }
 
 .txt-darkgrey {
-    color: #586c7c;
+    color: #5a6e7f;
 }
 
 .txt-bold {
@@ -107,8 +107,8 @@
     padding: 2rem 2rem 0;
 }
 
-.pad-2-0-0-2rem {
-    padding: 2rem 0 0 2rem;
+.pad-2rem {
+    padding: 1.5rem;
 }
 
 .pad-1rem {
@@ -162,14 +162,6 @@ header li {
     padding: 2rem 2rem 3rem;
 }
 
-.images-section .container {
-    padding: 4rem 2rem 2rem;
-}
-
-.about-us-section .container {
-    padding: 4rem 2rem 4rem;
-}
-
 .features-section img,
 .images-section img,
 .testimonials-section img {
@@ -180,6 +172,22 @@ header li {
     padding: 0 1.5rem;
     display: block;
     align-self: flex-end;
+}
+
+.features-section .left-column {
+    padding: 2rem 2rem 0;
+}
+
+.features-section .element-box.small-box i {
+    font-size: 70px;
+}
+
+.images-section .container {
+    padding: 4rem 2rem 2rem;
+}
+
+.about-us-section .container {
+    padding: 4rem 2rem 4rem;
 }
 
 .about-us-section img {
@@ -211,6 +219,14 @@ footer > nav {
 
     .features-section .element-box {
         margin: .5rem;
+    }
+
+    .features-section .right-column {
+        display: flex;
+    }
+
+    .features-section img {
+        max-width: 300px;
     }
 
     .testimonials-section .element-box {
@@ -268,10 +284,17 @@ footer > nav {
         width: 50%;
     }
 
+    .features-section .left-column {
+        padding: 2rem 0 0 2rem;
+    }
+
     .features-section .right-column {
-        display: flex;
         justify-content: center;
-        padding: 1.5rem 1.5rem 0;
+        padding: 1.5rem 0 0;
+    }
+
+    .features-section img {
+        max-width: 500px;
     }
 
     .images-section .container,
