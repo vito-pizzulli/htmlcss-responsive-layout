@@ -225,6 +225,12 @@ button {
     cursor: pointer;
 }
 
+button:hover,
+header li:hover,
+span.txt-underline:hover {
+    opacity: .8;
+}
+
 li {
     list-style-type: none;
     cursor: pointer;
