@@ -283,7 +283,6 @@ header li {
 .testimonials-section img,
 .about-us-section img {
     width: 100%;
-    max-width: 300px;
 }
 
 .features-section img {
@@ -319,6 +318,7 @@ header li {
 
 .testimonials-section .element-box {
     padding: 1rem;
+    border-radius: 50px;
 }
 
 .testimonials-section .element-box p > span {
@@ -345,7 +345,6 @@ header li {
 
 .about-us-section .img-container {
     width: 50%;
-    max-width: 300px;
 }
 
 .about-us-section .img-container span {
@@ -396,8 +395,16 @@ footer > nav {
         display: flex;
     }
 
+    .features-section h2 {
+        font-size: 1.5rem;
+    }
+
     .features-section img {
-        max-width: 300px;
+        width: 70%;
+    }
+
+    .planning-section h2 {
+        font-size: 3rem;
     }
 
     .testimonials-section .element-box {
@@ -492,7 +499,7 @@ footer > nav {
     }
 
     .features-section img {
-        max-width: 500px;
+        width: 100%;
     }
 
     .planning-section .container,
